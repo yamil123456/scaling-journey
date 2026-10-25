@@ -1,11 +1,11 @@
 ---
 name: lead-triage
-description: Rank new HubSpot leads and classify each as CONFIRMED, WEAK, BLOCKED, or DEAD. Use when the owner asks who to pursue, to triage leads, or to review new leads.
+description: Rank new HubSpot leads and classify each as CONFIRMED, WEAK, BLOCKED, or DEAD. Use when the owner asks who to pursue, to triage leads, or to review new leads. Call name: Scout.
 ---
 
-# Lead Triage
+# Scout (Lead Triage)
 
-Follow the rules in CLAUDE.md. Read-only: this helper never edits HubSpot, never emails clients, never books anything.
+Follow `CLAUDE.md` and `AGENTS.md`. Read-only: this helper never edits HubSpot, never emails clients, never books anything.
 
 ## Steps
 1. Pull new and recently updated leads from HubSpot (default: last 7 days, unless the owner gives a range).

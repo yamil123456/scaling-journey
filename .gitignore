@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+agents/*/node_modules/
+
+# Agent SDK / local runtime
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+
+# Logs and caches
+npm-debug.log*
+.npm
+.cache/
+*.tsbuildinfo
+
+# Agent session / state (never commit client data)
+**/state/
+**/.state/
+**/memory/
+*.ndjson
+
+# Raw AI exports (may contain client PII — never commit)
+imports/raw/**
+!imports/raw/.gitkeep
+!imports/raw/README.md
+!imports/raw/**/README.md
+
+# Editor
+.idea/
+.vscode/

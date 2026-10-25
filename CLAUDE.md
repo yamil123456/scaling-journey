@@ -59,10 +59,21 @@ HubSpot CRM, CallHippo, PandaDoc, Outlook/Microsoft 365 and Gmail, GoDaddy, Slac
 - Never reply to a client as a different team member than the correct signature in section 3.
 - When unsure, stop and ask the owner in writing instead of guessing.
 
-## 8. Helper roles (build one at a time, test each before the next)
-1. **Lead Triage:** ranks new HubSpot leads and flags only CONFIRMED ones. (`.claude/skills/lead-triage`)
-2. **Appointment Coordinator:** drafts confirmations and reschedules, logs every change, creates confirmation tasks, checks that financials were collected before scheduling.
-3. **Contract Desk:** prepares PandaDoc documents, checks signature fields, chases unsigned documents.
-4. **Follow-Up Writer:** drafts Spanish and English re-engagement emails in the right signature.
-5. **CRM Keeper:** updates HubSpot notes, tasks, and statuses, and cleans duplicates.
-6. **Daily Brief:** posts a short morning summary to Slack of what needs attention.
+## 8. Helper agents (call names + skills)
+
+Full roster, tasks, and dispatch cheat sheet: `AGENTS.md`. Drafts only unless the owner explicitly approves a send/update.
+
+### Company
+1. **Scout** — Lead Triage: ranks HubSpot leads; only CONFIRMED. (`.claude/skills/lead-triage`)
+2. **Coordinator** — Appointment Coordinator: confirm/reschedule, log changes, block until financials confirmed. (`.claude/skills/appointment-coordinator`)
+3. **Notary** — Contract Desk: PandaDoc prep, signature check, chase unsigned. (`.claude/skills/contract-desk`)
+4. **Scribe** — Follow-Up Writer: ES/EN re-engagement in the right signature. (`.claude/skills/follow-up-writer`)
+5. **Keeper** — CRM Keeper: HubSpot notes, tasks, statuses, duplicates. (`.claude/skills/crm-keeper`)
+6. **Herald** — Daily Brief: short morning Slack summary. (`.claude/skills/daily-brief`)
+
+### Personal life
+7. **Concierge** — Personal ops and life admin. (`.claude/skills/personal-concierge`)
+8. **Courier** — Inbox router (Gmail/Outlook → right agent). (`.claude/skills/inbox-router`)
+9. **Ledger** — Finance desk; no payments without OK. (`.claude/skills/finance-desk`)
+10. **Archivist** — Import ChatGPT/Claude/Gemini/Grok/Muse exports from `imports/raw/`. (`.claude/skills/import-ingestor`)
+11. **Bridge** — Grok Bot / X sync (`@Yamilit0`, `@bot`). (`.claude/skills/grok-bot-bridge`)
