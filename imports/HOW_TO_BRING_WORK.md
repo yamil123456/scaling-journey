@@ -1,26 +1,20 @@
-# Bring your AI work here (one step)
+# Bring your AI work here
 
-You do **not** need five repos. Drop files into this one folder and tell me to process them.
+**Full click-by-click instructions:** `EXPORT_STEPS.md`
 
-## Step for you (pick one app at a time)
+## Order (your choice)
 
-1. **ChatGPT (+ Dot)** — Settings → Data controls → **Export data**. Wait for the email. Download the zip. That export is the best way to bring **Dot** too. Faster option: open Dot → copy the important chats into a text file → put it in `imports/raw/chatgpt-dot/`.
-2. **Claude** — Settings → Privacy → **Export**. Download the zip (optional; a lot is already in this repo).
-3. **Gemini** — [Google Takeout](https://takeout.google.com) → include Gemini / My Activity → download when ready.
-4. **Grok Bot** — Already partly connected via X (`@Yamilit0`). For encrypted chats: say `Bridge, unlock X Chat` (you'll enter Chat PIN securely — never type it in the message box). Or copy important threads into `imports/raw/grok/`.
-5. **Muse** — Copy the useful chats or files into `imports/raw/muse/`.
+1. Claude → Paradise Resorts  
+2. Gemini Takeout → Quickest Exits  
+3. ChatGPT export → includes **Dot**  
+4. Muse → personal (last)
 
-Then: put the file(s) in `imports/raw/` (create subfolders if you want: `chatgpt/`, `claude/`, `gemini/`, `grok/`, `muse/`).
+Drop files in `imports/raw/` then say: **`Archivist, process my imports`**.
 
-In Cursor say: **`Courier, process my imports`**.
+## Slack
 
-I will:
-- Read the drop zone
-- Pull out business SOPs, email templates, agent ideas, checklists
-- Strip client personal data
-- Save clean digests under `imports/digests/`
-- Wire anything useful into Scout / Scribe / etc.
+You don’t need to confirm anything. Herald will use your real channels: `#new-clients`, `#appointments`, `#settlements`, `#case-updates`, `#all-paradise-resorts`.
 
-## What I already did without exports
+## PandaDoc
 
-Claude’s work that was already in GitHub is live as Paradise Ops HQ. ChatGPT / Gemini / Grok / Muse need a fresh file from you because old download links expired.
+Noted: some templates, not a lot. Notary works with what exists; tell me template names anytime.
