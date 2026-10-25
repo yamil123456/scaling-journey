@@ -53,6 +53,8 @@ You currently have **one** GitHub repo (`scaling-journey`). That is enough. Ever
 
 Old ChatGPT / Google download links in your email are **expired**. Drop a fresh export zip into `imports/raw/`, then say `Courier, process my imports`.
 
+**Grok Bot:** your X account `@Yamilit0` is connected. Say `Bridge, sync Grok Bot` anytime. For private X Chat history: `Bridge, unlock X Chat`.
+
 Details: `imports/HOW_TO_BRING_WORK.md` · Status: `imports/STATUS.md`
 
 ---

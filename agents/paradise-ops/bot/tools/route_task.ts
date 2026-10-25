@@ -47,13 +47,23 @@ const SPECIALISTS = {
     skill: "ledger",
     job: "Surface money items that need a decision; never pay without OK",
   },
+  archivist: {
+    callName: "Archivist",
+    skill: "archivist",
+    job: "Ingest AI exports from imports/raw; strip PII; write digests",
+  },
+  bridge: {
+    callName: "Bridge",
+    skill: "bridge",
+    job: "Sync Grok Bot / X (@Yamilit0, @bot) into Paradise Ops",
+  },
 } as const;
 
 type SpecialistId = keyof typeof SPECIALISTS;
 
 export default defineTool({
   description:
-    "Route an owner request to the correct Paradise Ops specialist (Scout, Coordinator, Notary, Scribe, Keeper, Herald, Concierge, Courier, Ledger).",
+    "Route an owner request to the correct Paradise Ops specialist (Scout, Coordinator, Notary, Scribe, Keeper, Herald, Concierge, Courier, Ledger, Archivist, Bridge).",
   effect: "read",
   inputSchema: z.object({
     specialist: z.enum([
@@ -66,6 +76,8 @@ export default defineTool({
       "concierge",
       "courier",
       "ledger",
+      "archivist",
+      "bridge",
     ]),
     ownerAsk: z.string().describe("Short restatement of what the owner asked for"),
   }),

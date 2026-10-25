@@ -7,7 +7,8 @@ You do **not** need five repos. Drop files into this one folder and tell me to p
 1. **ChatGPT** — Settings → Data controls → **Export data**. Wait for the email. Download the zip.
 2. **Claude** — Settings → Privacy → **Export**. Download the zip (optional; a lot is already in this repo).
 3. **Gemini** — [Google Takeout](https://takeout.google.com) → include Gemini / My Activity → download when ready.
-4. **Grok / Muse** — Copy the useful chats or files you care about into a text/markdown file (full account export may not exist).
+4. **Grok Bot** — Already partly connected via X (`@Yamilit0`). For encrypted chats: say `Bridge, unlock X Chat` (you'll enter Chat PIN securely — never type it in the message box). Or copy important threads into `imports/raw/grok/`.
+5. **Muse** — Copy the useful chats or files into `imports/raw/muse/`.
 
 Then: put the file(s) in `imports/raw/` (create subfolders if you want: `chatgpt/`, `claude/`, `gemini/`, `grok/`, `muse/`).
 

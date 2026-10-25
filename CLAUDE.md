@@ -76,3 +76,4 @@ Full roster, tasks, and dispatch cheat sheet: `AGENTS.md`. Drafts only unless th
 8. **Courier** — Inbox router (Gmail/Outlook → right agent). (`.claude/skills/inbox-router`)
 9. **Ledger** — Finance desk; no payments without OK. (`.claude/skills/finance-desk`)
 10. **Archivist** — Import ChatGPT/Claude/Gemini/Grok/Muse exports from `imports/raw/`. (`.claude/skills/import-ingestor`)
+11. **Bridge** — Grok Bot / X sync (`@Yamilit0`, `@bot`). (`.claude/skills/grok-bot-bridge`)

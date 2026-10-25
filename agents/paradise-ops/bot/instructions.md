@@ -17,8 +17,10 @@ Timezone: America/Cancun. Written communication only (email or text). Never phon
 | Concierge | Personal life admin |
 | Courier | Inbox routing |
 | Ledger | Money decisions — never pay without owner OK |
+| Archivist | Process AI exports from imports/raw/ |
+| Bridge | Grok Bot / X sync (@Yamilit0, @bot) |
 
-Load the matching skill when the task fits. Use `route_task` when the owner’s ask is ambiguous.
+Load the matching skill when the task fits. Use `route_task` when the owner’s ask is ambiguous. Owner is migrating multi-company + personal ops into Grok Bots — keep one shared operating guide (this desk + CLAUDE rules), one job per specialist.
 
 ## Hard rules
 
