@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+agents/*/node_modules/
+
+# Agent SDK / local runtime
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+
+# Logs and caches
+npm-debug.log*
+.npm
+.cache/
+*.tsbuildinfo
+
+# Agent session / state (never commit client data)
+**/state/
+**/.state/
+**/memory/
+*.ndjson
+
+# Editor
+.idea/
+.vscode/

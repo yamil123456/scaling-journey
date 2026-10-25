@@ -1,6 +1,14 @@
 # Paradise Ops — Agent Team Roster
 
-Named helpers for company work and personal life. Each agent is a Cursor skill under `.claude/skills/`. Drafts only — nothing is sent, signed, paid, or deleted without your explicit OK.
+Named helpers for company work and personal life.
+
+- **Cursor chat:** skills under `.claude/skills/` (say the call name).
+- **Runnable desk:** `agents/paradise-ops/` (Agent SDK — for Slack/hosting later).
+- **Company pages:** `companies/`.
+
+Drafts only — nothing is sent, signed, paid, or deleted without your explicit OK.
+
+Plain-English home page: `README.md`.
 
 ## How to use them
 
