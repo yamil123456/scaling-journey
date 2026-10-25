@@ -2,7 +2,19 @@
 
 Do **Claude first** (Paradise Resorts). Then Gemini (Quickest Exits). ChatGPT/Dot after that. Muse last (personal).
 
-When a download finishes, put the file in this project’s `imports/raw/` folder (or send it to me in Cursor) and say: **Archivist, process my imports**.
+**I cannot see your computer’s hard drive.** If the files are already on your machine, use one of these handoffs:
+
+### Easiest if files are already downloaded
+1. Email the zip to **yamilabuchard@gmail.com**  
+   Subject: `Paradise Ops import Claude` (or Gemini / ChatGPT / Muse)  
+2. Reply here: **“Archivist, check my Gmail for the import.”**  
+   I will pull the attachment from Gmail, strip client private data, and fold the useful parts into your agents.
+
+Other options: attach the file in this Cursor chat, or upload it to Slack and tell me which channel.
+
+---
+
+When a *new* download finishes, same idea — email it or attach it — then say: **Archivist, process my imports**.
 
 ---
 

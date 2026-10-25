@@ -8,7 +8,8 @@ description: Process AI exports dropped in imports/raw/ from ChatGPT, Claude, Ge
 Follow `CLAUDE.md`, `AGENTS.md`, and `imports/HOW_TO_BRING_WORK.md`.
 
 ## Steps
-1. List files under `imports/raw/` (and subfolders). If empty, tell the owner which export to request (see `imports/STATUS.md`) — one app at a time.
+1. Check `imports/raw/` (and subfolders). If empty, search Gmail for recent zips from the owner (`Paradise Ops import`, Claude/ChatGPT/Takeout/export subjects, `has:attachment filename:zip`). Save attachments into gitignored `imports/raw/<source>/` before processing — never commit raw bytes.
+2. If still empty, tell the owner to email the zip to their Gmail or attach it in chat (see `imports/EXPORT_STEPS.md`). One app at a time.
 2. For each file: identify source (chatgpt / claude / gemini / grok / muse / unknown).
 3. Extract only reusable ops material: SOPs, email templates, checklists, agent ideas, pricing *process* (never client quotes tied to a name).
 4. **Strip** client names, phones, emails, contract numbers, card data, addresses. Replace with `[CLIENT]` / `[REDACTED]`.
