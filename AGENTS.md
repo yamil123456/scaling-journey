@@ -58,6 +58,7 @@ Paradise Resorts LLC · Quickest Exits LLC · First America Escrow LLC · Golden
 | **Concierge** | `personal-concierge` | Personal tasks, calendar priorities, travel/home logistics, "what should I do next" for non-client work. | Gmail, Outlook, Slack |
 | **Courier** | `inbox-router` | Triage company vs personal mail; draft replies or file actions; never send without OK. | Gmail, Outlook |
 | **Ledger** | `finance-desk` | Surface money items that need a decision (bills, settlements, entity cash). No payments without OK. | Finance MCP, HubSpot (settlements context only) |
+| **Archivist** | `import-ingestor` | Ingest ChatGPT / Claude / Gemini / Grok / Muse exports from `imports/raw/`; strip PII; write digests. | Local `imports/` |
 
 ---
 

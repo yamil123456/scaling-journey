@@ -21,6 +21,11 @@ npm-debug.log*
 **/memory/
 *.ndjson
 
+# Raw AI exports (may contain client PII — never commit)
+imports/raw/**
+!imports/raw/.gitkeep
+!imports/raw/README.md
+
 # Editor
 .idea/
 .vscode/

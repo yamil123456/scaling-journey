@@ -15,6 +15,7 @@ You do **not** need to know git or coding to use the agents in Cursor. Open this
 | `.claude/skills/` | Cursor chat skills (Scout, Coordinator, Notary, …) |
 | `agents/paradise-ops/` | Runnable Agent SDK desk (for later Slack / hosting) |
 | `companies/` | One short page per company entity |
+| `imports/` | Bring work from ChatGPT, Claude, Gemini, Grok, Muse |
 
 ---
 
@@ -45,6 +46,14 @@ You currently have **one** GitHub repo (`scaling-journey`). That is enough. Ever
 | Money decision | `Ledger, what needs paying` |
 
 **Hard rule:** helpers only **draft**. Nothing is sent, signed, paid, or deleted until you say yes.
+
+---
+
+## Bring work from other AIs
+
+Old ChatGPT / Google download links in your email are **expired**. Drop a fresh export zip into `imports/raw/`, then say `Courier, process my imports`.
+
+Details: `imports/HOW_TO_BRING_WORK.md` · Status: `imports/STATUS.md`
 
 ---
 
