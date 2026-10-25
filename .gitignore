@@ -25,6 +25,7 @@ npm-debug.log*
 imports/raw/**
 !imports/raw/.gitkeep
 !imports/raw/README.md
+!imports/raw/**/README.md
 
 # Editor
 .idea/
