@@ -4,7 +4,7 @@ You do **not** need five repos. Drop files into this one folder and tell me to p
 
 ## Step for you (pick one app at a time)
 
-1. **ChatGPT** — Settings → Data controls → **Export data**. Wait for the email. Download the zip.
+1. **ChatGPT (+ Dot)** — Settings → Data controls → **Export data**. Wait for the email. Download the zip. That export is the best way to bring **Dot** too. Faster option: open Dot → copy the important chats into a text file → put it in `imports/raw/chatgpt-dot/`.
 2. **Claude** — Settings → Privacy → **Export**. Download the zip (optional; a lot is already in this repo).
 3. **Gemini** — [Google Takeout](https://takeout.google.com) → include Gemini / My Activity → download when ready.
 4. **Grok Bot** — Already partly connected via X (`@Yamilit0`). For encrypted chats: say `Bridge, unlock X Chat` (you'll enter Chat PIN securely — never type it in the message box). Or copy important threads into `imports/raw/grok/`.
