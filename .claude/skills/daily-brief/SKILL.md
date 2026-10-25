@@ -14,8 +14,9 @@ Follow `CLAUDE.md` and `AGENTS.md`. Draft the Slack post only unless the owner s
    - Unsigned PandaDoc packets
    - Quiet or stalled files past the decision checkpoint
    - Settlements needing action (`#settlements` / First America Escrow)
+   - Case movement (`#case-updates`)
 2. Rank by urgency. Time-limited contracts and same-day appointments first.
-3. Draft a short Slack message for Paradise Resorts workspace.
+3. Draft a short Slack message (workspace channels: `#all-paradise-resorts`, `#new-clients`, `#appointments`, `#settlements`, `#case-updates`).
 
 ## Output
 Slack-ready draft (no preamble):

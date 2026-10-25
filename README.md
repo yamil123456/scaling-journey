@@ -51,11 +51,13 @@ You currently have **one** GitHub repo (`scaling-journey`). That is enough. Ever
 
 ## Bring work from other AIs
 
-Old ChatGPT / Google download links in your email are **expired**. Drop a fresh export zip into `imports/raw/` (this also covers **Dot**), then say `Courier, process my imports`. Fast path for Dot only: paste chats into `imports/raw/chatgpt-dot/`.
+**Bring old AI work:** follow `imports/EXPORT_STEPS.md` (Claude first for Paradise Resorts). Drop the zip in `imports/raw/` → say `Archivist, process my imports`.
 
-**Grok Bot:** your X account `@Yamilit0` is connected. Say `Bridge, sync Grok Bot` anytime. For private X Chat history: `Bridge, unlock X Chat`.
+**Dot** = ChatGPT Dot agent (like Grok Bot). Comes with the ChatGPT export, or paste chats into `imports/raw/chatgpt-dot/`.
 
-Details: `imports/HOW_TO_BRING_WORK.md` · Status: `imports/STATUS.md`
+**Grok Bot:** X `@Yamilit0` connected → `Bridge, sync Grok Bot`. Private chats → `Bridge, unlock X Chat`.
+
+Status: `imports/STATUS.md`
 
 ---
 
